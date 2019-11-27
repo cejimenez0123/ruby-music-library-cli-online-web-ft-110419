@@ -29,9 +29,9 @@ class Song
     @@all << self
   end
   def self.create(name)
-    self.new(name)
+    song = self.new(name)
 
-    self
+    song
   end
   def self.find_by_name(name)
     self.all.find {|song| song.name == name}
