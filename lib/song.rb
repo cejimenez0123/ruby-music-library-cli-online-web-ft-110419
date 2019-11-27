@@ -8,7 +8,7 @@ class Song
     self.artist=(artist) if artist
     self.genre=(genre) if genre
 
-    @@all << self
+    # @@all << self
   end
   def genre=(genre)
     @genre = genre
